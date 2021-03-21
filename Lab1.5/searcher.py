@@ -7,6 +7,7 @@ for config_file in glob.glob("/tmp/lab_configs/*.txt"):
         for line in f:
            if line.find("ip address") !=-1:
                ip_addresses.append(line.strip())
+
 ip_addresses=list(set(ip_addresses))
-print(ip_addresses)
+
 

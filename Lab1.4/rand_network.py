@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-from  ipaddress import IPv4Network
+from ipaddress import IPv4Network
 import  random
 
 class IPv4RandomNetwork(IPv4Network):
