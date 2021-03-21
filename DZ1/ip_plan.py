@@ -31,7 +31,6 @@ for i in ip_addresses:
     print(n[1])
 
 
-
 #print(ip_addresses)
 #print(interfaces)
 #print(hostnames)
